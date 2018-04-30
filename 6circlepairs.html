@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<body onload="draw()">
+<canvas id="sketch" width="500" height="500">
+</canvas>
+
+<script>
+function draw() {
+	//your drawing goes here
+	var sketch = document.getElementById('sketch');
+	var context = sketch.getContext("2d");
+	
+	context.fillStyle="#ff0000";
+	context.beginPath();
+		context.arc(100, 100, 100, 0, 2 * Math.PI, true);
+		context.closePath();
+		context.fill();
+		
+	context.fillStyle="#dd0000";
+	context.beginPath();
+		context.arc(100, 100, 85, 0, 2 * Math.PI, true);
+		context.closePath();
+		context.fill();
+			
+	context.fillStyle="#bb0000";
+	context.beginPath();
+		context.arc(100, 100, 75, 0, 2 * Math.PI, true);
+		context.closePath();
+		context.fill();
+	
+	context.fillStyle="#990000";
+	context.beginPath();
+		context.arc(100, 100, 65, 0, 2 * Math.PI, true);
+		context.closePath();
+		context.fill();
+		
+	context.fillStyle="#770000";
+	context.beginPath();
+		context.arc(100, 100, 55, 0, 2 * Math.PI, true);
+		context.closePath();
+		context.fill();
+			
+	context.fillStyle="#550000";
+	context.beginPath();
+		context.arc(100, 100, 45, 0, 2 * Math.PI, true);
+		context.closePath();
+		context.fill();			
+	
+		context.fillStyle="#0000ff";
+		context.beginPath();
+			context.arc(300, 100, 100, 0, 2 * Math.PI, true);
+			context.closePath();
+			context.fill();
+		
+		context.fillStyle="#0000dd";
+		context.beginPath();
+			context.arc(300, 100, 85, 0, 2 * Math.PI, true);
+			context.closePath();
+			context.fill();
+			
+		context.fillStyle="#0000bb";
+		context.beginPath();
+			context.arc(300, 100, 75, 0, 2 * Math.PI, true);
+			context.closePath();
+			context.fill();
+	
+		context.fillStyle="#000099";
+		context.beginPath();
+			context.arc(300, 100, 65, 0, 2 * Math.PI, true);
+			context.closePath();
+			context.fill();
+		
+		context.fillStyle="#000077";
+		context.beginPath();
+			context.arc(300, 100, 55, 0, 2 * Math.PI, true);
+			context.closePath();
+			context.fill();
+			
+		context.fillStyle="#000055";
+		context.beginPath();
+			context.arc(300, 100, 45, 0, 2 * Math.PI, true);
+			context.closePath();
+			context.fill();			
+		
+				
+}
+</script>
+</body>
+</html>
